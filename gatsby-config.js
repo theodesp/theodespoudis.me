@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Theo Despoudis - Professional Software Engineer`,
-    description: `Software Engineer. Expert in React.js, Typescirpt, Go, JavaScript. Based in Ireland, Greek/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...`,
+    description: `Software Engineer. Expert in React.js, Typescript, Go, JavaScript. Based in Ireland, Greek/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...`,
     author: `@envy_theme`,
     siteUrl: 'https://theodespoudis.netlify.app/'
   },
@@ -30,7 +30,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
