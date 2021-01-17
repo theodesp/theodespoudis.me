@@ -3,6 +3,7 @@ module.exports = {
     title: `Theo Despoudis - Professional Software Engineer`,
     description: `Software Engineer. Expert in React.js, Typescirpt, Go, JavaScript. Based in Ireland, Greek/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...`,
     author: `@envy_theme`,
+    siteUrl: 'https://theodespoudis.netlify.app/'
   },
   // plugins
   plugins: [
