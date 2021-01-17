@@ -1,0 +1,1435 @@
+@media only screen and (max-width : 767px) {
+
+    /*----- Default CSS -----*/
+    $all-size: 15px;
+
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .common-btn {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        text-align: center;
+    
+        .sub-title {
+            display: inline-block;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .common-right-text {
+        display: none;
+    }
+
+    /*----- Home Demo One CSS -----*/
+    /*-- Navbar --*/
+    .navbar-light {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .navbar-collapse {
+            background-color: #1f1e1e;
+            padding-top: 15px;
+            padding-bottom: 35px;
+            margin-top: 15px;
+        }
+        .navbar-nav {
+            text-align: center;
+
+            .nav-link {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #fff;
+            }
+        }
+        .navbar-toggler {
+            background: #fff;
+            font-size: 15px;
+        }
+        .side-nav {
+            margin-left: 0;
+            text-align: center;
+            margin-top: 10px;
+            .common-btn {
+                padding: 8px 15px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    /*-- Main Area --*/
+    .main-area {
+        .container {
+            max-width: 540px;
+        }
+        .main-left-img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-image: unset;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .main-content {
+            padding-left: 0;
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area {
+        height: 100%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 45px;
+
+        .banner-content {
+            margin-top: 0;
+
+            h1 {
+                font-size: 40px;
+                max-width: 100%;
+            }
+        }
+    }
+
+    /*-- About --*/
+    .about-area {
+        text-align: center;
+
+        .about-content {
+            .left {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    /*-- Experience --*/
+    .experience-area {
+        text-align: center;
+
+        .experience-content {
+            .experience-inner {
+                ul {
+                    li {
+                        &:nth-child(1) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                            margin-bottom: 10px;
+                        }
+                        &:nth-child(2) {
+                            flex: 0 100%;
+                            max-width: 100%;
+                            margin-left: 0;
+                            margin-bottom: 10px;
+                        }
+                        &:nth-child(3) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Awards --*/
+    .awards-area {
+        text-align: center;
+
+        .awards-inner {
+            margin-bottom: 30px;
+
+            ul {
+                li {
+                    &:nth-child(1) {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        margin-bottom: 15px;
+                    }
+                    &:nth-child(2) {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        margin-left: 0;
+                    }
+                    h3 {
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Blog --*/
+    .blog-area {
+        text-align: center;
+    }
+
+    /*-- Review --*/
+    .review-area {
+        .review-item {
+            padding: 30px 15px 30px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    /*-- Contact --*/
+    .contact-area {
+        .contact-content {
+            text-align: center;
+        }
+    }
+    /*----- End Home Demo One CSS -----*/
+
+    /*----- Home Demo Two CSS -----*/
+    /*-- Banner --*/
+    .banner-area-two {
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+        .banner-shape-img {
+            position: relative;
+            top: 0;
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+        .banner-content {
+            padding-left: 10px;
+            padding-right: 10px;
+            span {
+                font-size: 18px;
+                margin-bottom: 7px;
+            }
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    /*-- About --*/
+    .about-area.two {
+        .about-img {
+            img {
+                &:nth-child(1) {
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+                &:nth-child(2) {
+                    max-width: 100%;    
+                    margin-left: 0;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    /*-- Ticket --*/
+    .ticket-area {
+        .ticket-item {
+            padding: 25px 15px 30px;
+        }
+    }
+
+    /*-- Review --*/
+    .review-area.two {
+        .review-item {
+            border: 5px solid #fff;
+            margin: 15px;
+            padding: 30px 15px 30px;
+        }
+    }
+
+    /*----- Home Demo Three CSS -----*/
+    .main-area {
+        .main-content.two {
+            padding-left: 0;
+        }
+    }
+  
+    /*-- Banner --*/
+    .banner-area.three {
+        height: 100%;
+        padding-top: 140px !important;
+
+        .common-right-text-two {
+            display: none;
+        }
+        .banner-content {
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    /*-- Services --*/
+    .what-area.three {
+        .what-item {
+            text-align: center;
+            padding: 20px 15px 20px;
+        }
+    }   
+
+    /*-- Projects --*/
+    .projects-area {
+        .projects-item {
+            &.two {
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    /*-- Review --*/
+    .review-area.three {
+        .review-item {
+            border: 0 !important;
+        }
+    }
+    /*----- End Home Demo Three CSS -----*/
+
+    /*----- Home Demo Four CSS -----*/
+    /*-- Banner --*/
+    .banner-area.four {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 150px;
+        padding-bottom: 95px;
+
+        .banner-img {
+            img {
+                position: relative;
+                bottom: 0;
+                right: 0;
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+        .banner-content {
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    
+    /*-- Case Study --*/
+    .case-study-area {
+        .case-study-img {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .case-study-content {
+            padding: 30px 15px 25px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .common-btn {
+            margin-top: 0;
+        }
+    }
+
+    /*-- About --*/
+    .about-area.four {
+        .section-title.four {
+            text-align: center;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .about-img-two {
+            margin-top: 30px;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+
+    /*-- Review --*/
+    .review-area.four {
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+
+    /*----- Home Demo Five CSS -----*/
+    /*-- Banner --*/
+    .banner-area.five {
+        padding-top: 75px;
+        padding-bottom: 80px;
+
+        .banner-content {
+            padding: 50px 15px 50px;
+            margin-top: 0;
+
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 50px;
+            }
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .banner-btn-area {
+                .common-btn {
+                    padding: 8px 15px;
+                }
+            }
+            .banner-img {
+                position: relative;
+                right: 0;
+                max-width: 100%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .banner-social-text {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-bottom: 30px;
+
+                ul {
+                    li {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        display: inline-block;
+                        margin-bottom: 0;
+
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .banner-email {
+                position: relative;
+                top: 0;
+                right: 0;
+                transform: rotate(0deg);
+            }
+        }
+    }
+    
+    /*-- What --*/
+    .what-area.two {
+        .what-item {
+            text-align: center;
+        }
+    }
+
+    /*-- About --*/
+    .about-area.five {
+        .section-title.five {
+            text-align: center;
+        } 
+    }
+
+    /*-- Counter --*/
+    .counter-item {
+        padding: 30px 15px 35px;
+
+        img {
+            max-width: 145px;
+        }
+        &.mt5 {
+            margin-top: 0;
+        }
+    }
+
+    /*-- Pricing --*/
+    .pricing-item {
+        &.mt5 {
+            margin-top: 0;
+        }
+    }
+
+    /*-- Blog --*/
+    .blog-area.five {
+        .blog-thumb-item {
+            text-align: left;
+
+            ul {
+                li {
+                    &:nth-child(1) {
+                        flex: 0 0 40%;
+                        max-width: 40%;
+                        text-align: center;
+                    }
+                    &:nth-child(2) {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        margin-left: 10px;
+                    }
+                    span {
+                        font-size: 10px;
+                        padding: 0 4px;
+                    }
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .creation-item {
+        text-align: center;
+    }
+
+    /*----- Home Demo Six CSS -----*/
+    /*-- Banner --*/ 
+    .banner-area.six {
+        padding-top: 185px;
+        padding-bottom: 120px;
+    
+        .banner-content {
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    /*-- About --*/ 
+    .about-area.six {
+        .section-title.six {
+            text-align: center;
+        }
+    }
+
+    /*-- Services --*/ 
+    .what-area.six {
+        .what-item {
+            text-align: center;
+        }
+    }
+
+    /*----- Work Details CSS -----*/
+    .page-title-area {
+        height: 370px;
+
+        .title-content {
+            margin-top: 100px;
+
+            span {
+                font-size: 30px;
+                top: 175px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            
+        }
+    }
+    .work-details-area {
+        .details-img {
+            text-align: center;
+        }
+        .details-description {
+            text-align: center;
+        }
+    }
+    .details-pages {
+        text-align: center;
+
+        .pages-item {
+            text-align: center;
+
+            &.two {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            &.three {
+                text-align: center;
+            }
+        }
+    }
+    /*----- End Work Details CSS -----*/
+
+    /*----- Case Study Details CSS -----*/
+    .case-study-details-area {
+        .details-img {
+            text-align: center;
+        }
+        .details-about {
+            text-align: center;
+        }
+        .details-goal {
+            text-align: center;
+        }
+        .details-problem {
+            text-align: center;
+        }
+    }
+    /*----- End Case Study Details CSS -----*/
+
+    /*----- Blog Details CSS -----*/
+    .blog-details-area {
+        .details-img-info {
+            text-align: center;
+
+            .info {
+                
+                li {
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    /*----- End Blog Details CSS -----*/
+
+    /*----- Service Details CSS -----*/
+    .service-details-area {
+        text-align: center;
+    }
+    /*----- End Service Details CSS -----*/
+
+
+    .demo-side-icon {
+        .modal-btn {
+            span {
+                padding: 5px 5px;
+                font-size: 12px;
+            }
+        }
+    }
+    .demos-side-content {
+        width: 300px;
+    }
+    .portfolio-item {
+        .bottom {
+            padding: 15px 15px 15px;
+            .bottom-one {
+                padding-left: 15px; 
+                margin-bottom: 10px;
+                h3 { 
+                    font-size: 17px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+            .bottom-two {
+                p {
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .modal-video-body {
+        padding: 0 15px;
+        .modal-video-close-btn {
+            right: 0;
+        }
+    }
+
+    .what-item {
+        h3 {
+            font-size: 17px;
+        }
+        .what-btn {
+            font-size: 14px;
+        }
+    }
+    .blog-item {
+        .bottom {
+            h3 {
+                font-size: 17px;
+            }
+        }
+    }
+    .review-area {
+        .review-item {
+            h3 {
+                font-size: 17px;
+            }
+        }
+    }
+    .go-top {
+        width: 35px;
+        height: 35px;
+    }
+    .case-study-area {
+        .case-study-content {
+            h3 {
+                font-size: 17px;
+                line-height: 1.4;
+            }
+        }
+    }
+    .about-area.three {
+        .about-img-three {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    /*----- Default CSS -----*/
+    $all-size: 15px;
+
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .common-btn {
+        padding: 10px 20px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        text-align: center;
+    
+        .sub-title {
+            display: inline-block;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .common-right-text {
+        display: none;
+    }
+
+    /*----- Home Demo One CSS -----*/
+    /*-- Navbar --*/
+    .navbar-light {
+        padding-left: 15px;
+        padding-right: 15px;
+ 
+        .navbar-nav {
+            text-align: center;
+
+            .nav-link {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #fff;
+            }
+        }
+        .navbar-toggler {
+            background: #fff;
+            font-size: 15px;
+        }
+        .side-nav {
+            margin-left: 10px;
+            text-align: center;
+            .common-btn {
+                padding: 8px 15px;
+                font-size: 13px;
+            }
+        }
+        &.four {
+            .navbar-nav {
+                .nav-link {
+                    color: #171717;
+                }
+            }
+        }
+    }
+ 
+    /*-- Main Area --*/
+    .main-area {
+        .container {
+            max-width: 720px;
+        }
+        .main-left-img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-image: unset;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .main-content {
+            padding-left: 0;
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area {
+        height: 100%;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 65px;
+
+        .banner-content {
+            margin-top: 0;
+
+            h1 {
+                font-size: 55px;
+                max-width: 100%;
+            }
+            p {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+
+    /*-- About --*/
+    .about-area {
+        text-align: center;
+    }
+
+    /*-- Blog --*/
+    .blog-area {
+        text-align: center;
+    }
+
+    /*-- Contact --*/
+    .contact-area {
+        .contact-content {
+            text-align: center;
+        }
+    }
+
+    /*----- Home Demo Two CSS -----*/
+    /*-- Banner --*/
+    .banner-area-two {
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+        .banner-shape-img {
+            position: relative;
+            top: 0;
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+        .banner-content {
+            span {
+                font-size: 24px;
+                margin-bottom: 7px;
+            }
+            h1 {
+                font-size: 65px;
+            }
+        }
+    }
+ 
+    /*-- Review --*/
+    .review-area.two {
+        .review-item {
+            border: 5px solid #fff;
+            margin: 15px;
+            padding: 30px 15px 30px;
+        }
+    }
+
+    /*----- Home Demo Three CSS -----*/
+    .main-area {
+        .main-content.two {
+            padding-left: 0;
+        }
+    }
+  
+    /*-- Banner --*/
+    .banner-area.three {
+        height: 100%;
+        padding-top: 150px !important;
+
+        .common-right-text-two {
+            display: none;
+        }
+        .banner-content {
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    /*-- Services --*/
+    .what-area.three {
+        .what-item {
+            text-align: center;
+        }
+    }   
+
+    /*-- Projects --*/
+    .projects-area {
+        .projects-item {
+            &.two {
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    /*-- Review --*/
+    .review-area.three {
+        .review-item {
+            border: 0 !important;
+        }
+    }
+    /*----- End Home Demo Three CSS -----*/
+
+    /*----- Home Demo Four CSS -----*/
+    /*-- Banner --*/
+    .banner-area.four {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 150px;
+        padding-bottom: 95px;
+
+        .banner-img {
+            img {
+                position: relative;
+                bottom: 0;
+                right: 0;
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+        .banner-content {
+            .sub-head {
+                font-size: 35px;
+            }
+            h1 {
+                font-size: 60px;
+                margin-bottom: 10px;
+            }
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    
+    /*-- Case Study --*/
+    .case-study-area {
+        .case-study-img {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .case-study-content {
+            padding: 30px 15px 25px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .common-btn {
+            margin-top: 0;
+        }
+    }
+
+    /*-- About --*/
+    .about-area.four {
+        .section-title.four {
+            text-align: center;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .about-img-two {
+            margin-top: 30px;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+
+    /*-- Review --*/
+    .review-area.four {
+        .owl-prev {
+            top: 45%;
+        }
+        .owl-next {
+            top: 45%;
+        }
+    }
+        /*----- Home Demo Five CSS -----*/
+    /*-- Banner --*/
+    .banner-area.five {
+        padding-top: 75px;
+        padding-bottom: 80px;
+
+        .banner-content {
+            padding: 60px 30px 50px;
+            margin-top: 0;
+
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 80px;
+            }
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .banner-btn-area {
+                .common-btn {
+                    padding: 10px 12px;
+                }
+            }
+            .banner-img {
+                position: relative;
+                right: 0;
+                max-width: 100%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .banner-social-text {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-bottom: 30px;
+
+                ul {
+                    li {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        display: inline-block;
+                        margin-bottom: 0;
+
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .banner-email {
+                position: relative;
+                top: 0;
+                right: 0;
+                transform: rotate(0deg);
+            }
+        }
+    }
+    
+    /*-- What --*/
+    .what-area.two {
+        .what-item {
+            text-align: center;
+        }
+    }
+
+    /*-- About --*/
+    .about-area.five {
+        .section-title.five {
+            text-align: center;
+        } 
+    }
+
+    /*-- Counter --*/
+    .counter-item {
+        &.mt5 {
+            margin-top: 0;
+        }
+    }
+
+    /*-- Pricing --*/
+    .pricing-item {
+        &.mt5 {
+            margin-top: 0;
+        }
+    }
+
+    /*-- Blog --*/
+    .blog-area.five {
+        .blog-thumb-item {
+            text-align: left;
+            
+            ul {
+                li {
+                    &:nth-child(1) {
+                        flex: 0 0 15%;
+                        max-width: 15%;
+                    }
+                    &:nth-child(2) {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        margin-left: 10px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*----- Home Demo Six CSS -----*/
+    /*-- Banner --*/ 
+    .banner-area.six {
+        padding-top: 185px;
+        padding-bottom: 120px;
+    
+        .banner-content {
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 60px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    /*-- About --*/ 
+    .about-area.six {
+        .section-title.six {
+            text-align: center;
+        }
+    }
+
+    /*-- Services --*/ 
+    .what-area.six {
+        .what-item {
+            text-align: center;
+        }
+    }
+    .creation-item {
+        text-align: center;
+    }
+
+    /*----- Work Details CSS -----*/
+    .page-title-area {
+        height: 370px;
+
+        .title-content {
+            margin-top: 100px;
+
+            span {
+                font-size: 50px;
+                top: 155px;
+            }
+            h1 {
+                font-size: 50px;
+            }
+            
+        }
+    }
+    .work-details-area {
+        .details-img {
+            text-align: center;
+        }
+        .details-description {
+            text-align: center;
+        }
+    }
+    /*----- End Work Details CSS -----*/
+
+    /*----- Case Study Details CSS -----*/
+    .case-study-details-area {
+        .details-img {
+            text-align: center;
+        }
+        .details-about {
+            text-align: center;
+        }
+        .details-goal {
+            text-align: center;
+        }
+        .details-problem {
+            text-align: center;
+        }
+    }
+    /*----- End Case Study Details CSS -----*/
+
+    
+    /*----- Blog Details CSS -----*/
+    .blog-details-area {
+        .details-img-info {
+            text-align: center;
+
+            .info {
+                li {
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .widget-area {
+            .recent {
+                .recent-inner {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                flex: 0 0 15%;
+                                max-width: 15%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*----- End Blog Details CSS -----*/
+
+    /*----- Service Details CSS -----*/
+    .service-details-area {
+        text-align: center;
+    }
+    /*----- End Service Details CSS -----*/
+    
+    .modal-video-body {
+        padding: 0 30px;
+        .modal-video-close-btn {
+            right: 0;
+        }
+    }
+
+    .about-area.three {
+        .about-img-three {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .pufo-aside {
+        width: 280px;
+    }
+    .banner-area {
+        .banner-content {
+            h1 {
+                font-size: 60px; 
+            }
+        }
+    }
+    .banner-area.three {
+        .banner-content {
+            h1 {
+                font-size: 70px;
+            }
+        }
+    }
+    .main-area {
+        .main-content.two {
+            padding-left: 280px;
+        }
+    }
+    .main-area {
+        .main-left-img {
+            width: 365px;
+        }
+        .main-content {
+            padding-left: 365px;
+        }
+    }
+    .section-title {
+        h2 {
+            font-size: 35px;
+        }
+    }
+    .banner-area.four {
+        .banner-img {
+            img {
+                max-width: 410px;
+            }
+        }
+    }
+    .banner-area.five {
+        .banner-content {
+            padding-left: 70px;
+
+            .sub-head {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 70px;
+            }
+
+            .banner-social-text {
+                top: 20px;
+                left: 10px;
+                ul {
+                    li {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .banner-img {
+                right: 0;
+                max-width: 560px
+            }
+            .banner-email {
+                top: unset;
+                right: unset;
+                transform: rotate(0deg);
+                left: 70px;
+                bottom: 48px;
+            }
+        }
+    }
+    
+    .modal-video-body {
+        padding: 0 40px;
+    }
+
+    .about-area.two {
+        .about-img {
+            img:nth-child(2) {
+                margin-left: 20px;
+            }
+        }
+    }
+    .banner-area.four {
+        .banner-content {
+            padding-left: 20px;
+            margin: 0;
+            h1 {
+                font-size: 65px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .main-area {
+        .main-left-img {
+            width: 650px;
+        }
+        .main-content {
+            padding-left: 650px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 2500px) {
+    .navbar-light {
+        .container {
+            max-width: 1475px;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .banner-area.three {
+        padding-top: 75px;
+    }
+    .navbar-light.four.is-sticky .navbar-nav .nav-link {
+        color: #171717;
+    }
+
+
+    .pufo-aside {
+        background-color: #1f1e1e;
+        position: fixed;
+        height: auto;
+        width: 100%;
+        padding: 15px;
+
+        .logo {
+            position: inherit;
+        }
+
+        .navbar-nav {
+            position: inherit;
+            -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+            margin-top: 20px;
+
+            li {
+                margin-bottom: 5px;
+            }
+        }
+        
+        .aside-footer {
+            position: inherit;
+            margin-top: 15px;
+        }
+    }
+    .what-item {
+        h3 { 
+            font-size: 18px;
+        }
+    }
+    .what-item {
+        h3 {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .pufo-aside {
+        .collapse {
+            display: block !important;
+        }
+    }
+}
