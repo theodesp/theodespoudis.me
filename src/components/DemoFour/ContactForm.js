@@ -44,7 +44,7 @@ const ContactForm = () => {
     const social = site?.siteMetadata?.social;
 
     const [contact, setContact] = useState(INITIAL_STATE);
-    const { register, errors } = useForm();
+    const { register, reset, errors } = useForm();
 
     const handleChange = e => {
         const { name, value } = e.target;
@@ -63,7 +63,11 @@ const ContactForm = () => {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...contact })
         })
-            .then(() => alertContent())
+            .then(() => {
+                alertContent();
+                setContact(INITIAL_STATE);
+                reset();
+            })
             .catch(error => alert(error));
 
         e.preventDefault();
