@@ -128,7 +128,6 @@ const ContactForm = () => {
                                             name="number" 
                                             className="form-control" 
                                             placeholder="Phone"
-                                            required={true}
                                             value={contact.number}
                                             onChange={handleChange}
                                         />
