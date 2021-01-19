@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import axios from 'axios'
-import baseUrl from '../../utils/baseUrl'
 import { useForm } from 'react-hook-form'
 import withReactContent from 'sweetalert2-react-content'
 import Swal from 'sweetalert2'
