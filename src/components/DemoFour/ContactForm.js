@@ -52,6 +52,24 @@ const ContactForm = () => {
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
     }
+
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    }
+
+    const handleSubmit = e => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...contact })
+        })
+            .then(() => alertContent())
+            .catch(error => alert(error));
+
+        e.preventDefault();
+    };
     
     return (
         <div id="contact" className="contact-area four pb-70 mt-50">
@@ -62,7 +80,8 @@ const ContactForm = () => {
 
                 <div className="row align-items-center">
                     <div className="col-md-7 col-lg-7">
-                        <form className="js-contact-form" name="contact" method="POST" data-netlify="true">
+                        <form onSubmit={handleSubmit} className="js-contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <input type="hidden" name="form-name" value="contact" />
                             <p className="invisible" hidden>
                                 <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
                             </p>
