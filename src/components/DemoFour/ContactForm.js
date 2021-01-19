@@ -51,7 +51,6 @@ const ContactForm = () => {
     const handleChange = e => {
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
-        // console.log(contact)
     }
     
     return (
