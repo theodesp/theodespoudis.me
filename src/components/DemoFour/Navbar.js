@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import logo from '../../components/App/assets/images/logo-short.png';
+import logo from '../../components/App/assets/images/logo.png';
 
 const Navbar = () => {
     const [collapsed, setCollapsed] = React.useState(true);
@@ -30,7 +30,7 @@ const Navbar = () => {
             <nav id="navbar" className="navbar navbar-expand-md navbar-light four fixed-top">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
-                        <img src={logo} alt="logo" />
+                        <img width={150} src={logo} alt="logo" />
                     </Link>
 
                     <button 
