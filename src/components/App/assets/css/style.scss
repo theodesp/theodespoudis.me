@@ -33,7 +33,7 @@ $common-font: 'Open Sans', sans-serif;
 $heading-font: 'Poppins', sans-serif;
 $all-size: 16px;
 $transition: .5s all ease;
-$main-color: #171717;
+$main-color: #001871;
 $paragraph-color: #757575;
 $white-color: #fff;
 $orange-color: #F68338;
@@ -240,7 +240,7 @@ button {
 .section-title {
     margin-bottom: 40px;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     .sub-title {
         display: block;
@@ -348,7 +348,7 @@ button {
         background-color: #252424;
         display: inline-block;
         padding: 6px 15px;
-        
+
         &:before {
             display: none;
         }
@@ -421,7 +421,7 @@ button {
     }
     .side-nav {
         margin-left: 15px;
-        
+
         .common-btn {
             padding: 10px 20px;
 
@@ -495,9 +495,9 @@ button {
         left: 4px;
         position: relative;
     }
-    &.collapsed { 
+    &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -540,7 +540,7 @@ button {
     }
 }
 
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 992px) {
     .main-area.two {
         .container {
             max-width: 850px;
@@ -559,7 +559,7 @@ button {
 
         h1 {
             font-size: 80px;
-            margin-bottom: 10px; 
+            margin-bottom: 10px;
         }
         p {
             margin-bottom: 25px;
@@ -645,7 +645,7 @@ button {
 .about-area {
     position: relative;
     overflow: hidden;
-    
+
     .about-content {
         .section-title {
             margin-bottom: 20px;
@@ -682,7 +682,7 @@ button {
                 list-style-type: none;
                 display: block;
                 margin-bottom: 12px;
-            
+
                 span {
                     display: inline-block;
                     color: $main-color;
@@ -706,7 +706,7 @@ button {
 .what-area {
     position: relative;
     overflow: hidden;
-    
+
     .common-right-text {
         top: 340px;
         right: -175px;
@@ -780,7 +780,7 @@ button {
                 flex-wrap: wrap;
                 padding: 0;
                 margin: 0;
-                
+
                 li {
                     list-style-type: none;
                     display: inline-block;
@@ -1133,7 +1133,7 @@ button {
 .review-area {
     position: relative;
     overflow: hidden;
-    
+
     .common-right-text {
         top: 350px;
         right: -165px;
@@ -1188,7 +1188,7 @@ button {
                 background-color: transparent;
                 padding: 0;
                 margin: 0 5px;
-        
+
                 i {
                     line-height: 35px;
                 }
@@ -1215,7 +1215,7 @@ button {
 
         .form-group {
             margin-bottom: 20px;
-    
+
             .form-control {
                 height: 50px;
                 border-radius: 0;
@@ -1223,7 +1223,7 @@ button {
                 font-size: 15px;
                 background-color: #f1f1f1;
                 border: 0;
-    
+
                 &:focus {
                     border: 0;
                     box-shadow: none;
@@ -1262,7 +1262,7 @@ button {
     }
     .contact-content {
         margin-bottom: 30px;
-        
+
         .top {
             margin-bottom: 30px;
 
@@ -1273,7 +1273,7 @@ button {
                     list-style-type: none;
                     display: block;
                     margin-bottom: 15px;
-    
+
                     &:last-child {
                         margin-bottom: 0;
                     }
@@ -1285,7 +1285,7 @@ button {
                     a {
                         display: inline-block;
                         color: $paragraph-color;
-    
+
                         &:hover {
                             color: $orange-color;
                         }
@@ -1301,7 +1301,7 @@ button {
                     list-style-type: none;
                     display: inline-block;
                     margin-right: 15px;
-    
+
                     &:last-child {
                         margin-right: 0;
                     }
@@ -1330,7 +1330,7 @@ button {
                         color: $main-color;
                         font-size: 22px;
                         color: #3b5998;
-    
+
                         &:hover {
                             transform: translate(0, -5px);
                         }
@@ -1366,7 +1366,7 @@ button {
     }
 }
 /*----- End Home Demo One CSS -----*/
-  
+
 /*----- Home Demo Two CSS -----*/
 /*-- Navbar --*/
 .navbar-light.two {
@@ -1483,7 +1483,7 @@ button {
                 max-width: 435px;
             }
             &:nth-child(2) {
-                max-width: 435px;    
+                max-width: 435px;
                 margin-left: 105px;
                 margin-top: -300px;
             }
@@ -1613,7 +1613,7 @@ button {
     .video-wrap {
         a {
             color: $main-color;
-    
+
             &:before {
                 background-color: $yellow-color;
             }
@@ -1773,7 +1773,7 @@ button {
         &:hover {
             color: $white-color !important;
             background-color: $yellow-color !important;
-        } 
+        }
     }
 }
 
@@ -1890,7 +1890,7 @@ button {
             display: inline-block;
         }
     }
- 
+
     .aside-footer {
         position: absolute;
         bottom: 50px;
@@ -2061,7 +2061,7 @@ button {
             }
         }
     }
-}   
+}
 
 /*-- Experience --*/
 .experience-area.three {
@@ -2090,7 +2090,7 @@ button {
     .skill {
         margin-bottom: 30px;
         position: relative;
-            
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -2118,7 +2118,7 @@ button {
         display: block;
         position: relative;
         border-radius: 30px;
-        
+
         span{
             position: absolute;
             top: -28px;
@@ -2131,7 +2131,7 @@ button {
         }
     }
     .skill1 {
-        width: 90%;  
+        width: 90%;
 
         .skill-count1 {
             right: 7px;
@@ -2173,7 +2173,7 @@ button {
         position: relative;
         text-align: center;
         margin-bottom: 30px;
-    
+
         &:hover {
             &:before {
                 opacity: .50;
@@ -2208,14 +2208,14 @@ button {
             visibility: hidden;
             transition: $transition;
             width: 100%;
-    
+
             h3 {
                 margin-bottom: 5px;
                 font-size: 20px;
-    
+
                 a {
                     color: $white-color;
-    
+
                     &:hover {
                         letter-spacing: 1px;
                     }
@@ -2542,7 +2542,7 @@ button {
     .case-study-img {
         position: relative;
         text-align: center;
-    
+
         &:hover {
             &:before {
                 opacity: .50;
@@ -2589,14 +2589,14 @@ button {
             visibility: hidden;
             transition: $transition;
             width: 100%;
-    
+
             h3 {
                 margin-bottom: 5px;
                 font-size: 20px;
-    
+
                 a {
                     color: $white-color;
-    
+
                     &:hover {
                         letter-spacing: 1px;
                     }
@@ -2610,7 +2610,7 @@ button {
         }
         .overlay {
             position: relative;
-    
+
             &:before {
                 position: absolute;
                 content: '';
@@ -2642,7 +2642,7 @@ button {
     .case-study-content {
         padding: 50px 55px 55px;
         box-shadow: 0px 0px 20px 0px #dddddd8a;
-        
+
         h3 {
             font-size: 20px;
             margin-bottom: 12px;
@@ -3107,7 +3107,7 @@ button {
 
                 span {
                     color: $white-color;
-                } 
+                }
                 a {
                     color: #B7B7B7;
 
@@ -3115,9 +3115,9 @@ button {
                         color: $pink-color;
                     }
                 }
-            } 
-        } 
-    } 
+            }
+        }
+    }
 }
 
 /*-- Counter --*/
@@ -3330,7 +3330,7 @@ button {
             .owl-prev, .owl-next {
                 border: 1px solid $pink-color !important;
                 color: $pink-color !important;
-        
+
                 &:hover {
                     color: $white-color !important;
                     background-color: $pink-color !important;
@@ -3412,7 +3412,7 @@ button {
     }
 }
 
-/*-- Banner --*/ 
+/*-- Banner --*/
 .banner-area.six {
     position: relative;
     background-image: url('../images/banner/banner-bg3.jpg');
@@ -3453,7 +3453,7 @@ button {
     }
 }
 
-/*-- About --*/ 
+/*-- About --*/
 .about-area.six {
     .section-title.six {
         text-align: left;
@@ -3487,7 +3487,7 @@ button {
     }
 }
 
-/*-- Services --*/ 
+/*-- Services --*/
 .what-area.six {
     .what-item {
         text-align: left;
@@ -3518,7 +3518,7 @@ button {
     }
 }
 
-/*-- Counter --*/ 
+/*-- Counter --*/
 .counter-area.two {
     .counter-item {
         h3 {
@@ -3530,7 +3530,7 @@ button {
     }
 }
 
-/*-- Creation --*/ 
+/*-- Creation --*/
 .creation-item {
     margin-bottom: 30px;
     transition: $transition;
@@ -3560,10 +3560,10 @@ button {
         h3 {
             margin-bottom: 0;
             font-size: 20px;
-    
+
             a {
                 color: $white-color;
-    
+
                 &:hover {
                     color: $grey-color;
                 }
@@ -3572,7 +3572,7 @@ button {
     }
 }
 
-/*-- Review --*/ 
+/*-- Review --*/
 .review-area.six {
     .review-item {
         i {
@@ -3599,7 +3599,7 @@ button {
     }
 }
 
-/*-- Logo --*/ 
+/*-- Logo --*/
 .logo-area {
     border-top: 1px solid #b7b7b74d;
     border-bottom: 1px solid #b7b7b74d;
@@ -3615,7 +3615,7 @@ button {
     }
 }
 
-/*-- Blog --*/ 
+/*-- Blog --*/
 .blog-area.six {
     .blog-item {
         .top {
@@ -3648,7 +3648,7 @@ button {
     }
 }
 
-/*-- Contact --*/ 
+/*-- Contact --*/
 .contact-area.six {
     .contact-content {
         .top {
@@ -3679,7 +3679,7 @@ button {
     }
 }
 
-/*-- Copyright --*/ 
+/*-- Copyright --*/
 .copyright-area.six {
     border-top: 1px solid #f1f1f11a;
 
@@ -3808,7 +3808,7 @@ button {
     }
 }
 .work-details-area {
-    .details-img { 
+    .details-img {
         img {
             width: 100%;
             margin-bottom: 30px;
@@ -3915,7 +3915,7 @@ button {
         .details-img-right {
             .details-img-inner {
                 margin-bottom: 30px;
-  
+
                 h3 {
                     font-size: 20px;
                     margin-bottom: 5px;
@@ -4024,9 +4024,9 @@ button {
         padding-bottom: 30px;
 
         .info {
-            margin-bottom: 10px; 
+            margin-bottom: 10px;
             padding: 0;
-            
+
             li {
                 list-style-type: none;
                 display: inline-block;
@@ -4347,7 +4347,7 @@ button {
             text-align: center;
             max-width: 730px;
             margin-left: auto;
-            margin-right: auto; 
+            margin-right: auto;
         }
     }
 }
@@ -4369,7 +4369,7 @@ button {
                 border: 1px solid $green-color !important;
                 color: $green-color !important;
                 background-color: transparent;
-        
+
                 &:hover {
                     color: $main-color !important;
                     background-color: $green-color !important;

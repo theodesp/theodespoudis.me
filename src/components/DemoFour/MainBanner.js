@@ -1,7 +1,23 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import {graphql, Link, useStaticQuery} from 'gatsby';
 
 const MainBanner = () => {
+    const { site } = useStaticQuery(
+        graphql`
+            query {
+                site {
+                    siteMetadata {
+                        social {
+                            twitter
+                            github
+                            linkedin
+                        }
+                    }
+                }
+            }
+        `
+    )
+    const social = site?.siteMetadata?.social;
     return (
         <div id="home" className="banner-area four">
 
@@ -17,35 +33,25 @@ const MainBanner = () => {
                                 <Link to="#contact" className="common-btn">
                                     Contact Me
                                 </Link>
-                                <Link href="#" className="common-btn banner-btn">
-                                    Hire Me
-                                </Link>
+                                {/*<Link href="#" className="common-btn banner-btn">*/}
+                                {/*    Hire Me*/}
+                                {/*</Link>*/}
                             </div>
 
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        <i className='bx bxl-facebook'></i>
+                                    <a href={social.twitter}>
+                                        <i className='bx bxl-twitter' />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className='bx bxl-twitter'></i>
+                                    <a href={social.linkedin}>
+                                        <i className='bx bxl-linkedin' />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className='bx bxl-behance'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className='bx bxl-dribbble'></i>
+                                    <a href={social.github}>
+                                        <i className='bx bxl-github' />
                                     </a>
                                 </li>
                             </ul>
@@ -57,4 +63,4 @@ const MainBanner = () => {
     )
 }
 
-export default MainBanner
+export default MainBanner;

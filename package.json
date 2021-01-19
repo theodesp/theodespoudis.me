@@ -24,6 +24,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.10.1",
+    "react-loader-spinner": "^3.1.14",
     "react-modal-video": "^1.2.6",
     "react-owl-carousel3": "^2.2.5",
     "recoil": "^0.1.2",

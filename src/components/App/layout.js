@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
+import React from "react";
 import { RecoilRoot } from 'recoil'
-import Preloader from "./Preloader"
-import GoTop from "./GoTop"
+import Preloader from "./Preloader";
+import GoTop from "./GoTop";
 
 const Layout = ({ children }) => {
   const [loader, setLoader] = React.useState(true)

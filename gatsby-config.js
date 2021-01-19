@@ -2,8 +2,16 @@ module.exports = {
   siteMetadata: {
     title: `Theo Despoudis - Professional Software Engineer`,
     description: `Software Engineer. Expert in React.js, Typescript, Go, JavaScript. Based in Ireland, Greek/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...`,
-    author: `@envy_theme`,
-    siteUrl: 'https://theodespoudis.netlify.app/'
+    author: {
+      name: `Theo Despoudis`,
+      summary: `who lives and works in San Francisco building useful things.`,
+    },
+    siteUrl: 'https://theodespoudis.netlify.app/',
+    social: {
+      twitter: 'https://twitter.com/nerdokto',
+      linkedin: 'https://www.linkedin.com/in/theofanis-despoudis-7bb30913/',
+      github: 'https://github.com/theodesp'
+    }
   },
   // plugins
   plugins: [

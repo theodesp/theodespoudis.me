@@ -1,10 +1,10 @@
-import React from 'react'
-import {Link} from 'gatsby'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import logo from '../../components/App/assets/images/logo-short.png'
+import React from 'react';
+import {Link} from 'gatsby';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import logo from '../../components/App/assets/images/logo-short.png';
 
 const Navbar = () => {
-    const [collapsed, setCollapsed] = React.useState(true)
+    const [collapsed, setCollapsed] = React.useState(true);
 
     const toggleNavbar = () => {
         setCollapsed(!collapsed)
@@ -29,10 +29,8 @@ const Navbar = () => {
         <React.Fragment>
             <nav id="navbar" className="navbar navbar-expand-md navbar-light four fixed-top">
                 <div className="container">
-                    <Link href="/">
-                        <a className="navbar-brand">
-                            <img src={logo} alt="logo" />
-                        </a>
+                    <Link to="/" className="navbar-brand">
+                        <img src={logo} alt="logo" />
                     </Link>
 
                     <button 
@@ -53,8 +51,7 @@ const Navbar = () => {
                     <div className={classOne} id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <AnchorLink 
-                                    // onClick={toggleNavbar} 
+                                <AnchorLink
                                     offset={() => 100} 
                                     className="nav-link active" 
                                     href="#home"
@@ -63,8 +60,7 @@ const Navbar = () => {
                                 </AnchorLink>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    // onClick={toggleNavbar} 
+                                <AnchorLink
                                     offset={() => -1} 
                                     className="nav-link" 
                                     href="#about"
@@ -73,8 +69,7 @@ const Navbar = () => {
                                 </AnchorLink>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    // onClick={toggleNavbar} 
+                                <AnchorLink
                                     offset={() => -1} 
                                     className="nav-link" 
                                     href="#portfolio"
@@ -83,8 +78,7 @@ const Navbar = () => {
                                 </AnchorLink>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    // onClick={toggleNavbar} 
+                                <AnchorLink
                                     offset={() => -1} 
                                     className="nav-link" 
                                     href="#blog"
@@ -93,8 +87,7 @@ const Navbar = () => {
                                 </AnchorLink>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    // onClick={toggleNavbar} 
+                                <AnchorLink
                                     offset={() => -1} 
                                     className="nav-link" 
                                     href="#contact"
