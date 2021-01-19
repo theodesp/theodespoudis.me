@@ -38,10 +38,10 @@ $paragraph-color: #757575;
 $white-color: #fff;
 $orange-color: #F68338;
 $yellow-color: #FDDB3A;
-$blue-color: #5C2CFF;
+$blue-color: $main-color;
 $pink-color: #ED2C66;
 $grey-color: #B7B7B7;
-$green-color: #4BFFA5;
+$green-color: #00c2cb;
 
 /*----- Default CSS -----*/
 body {
@@ -87,6 +87,9 @@ img {
 }
 .pb-100 {
     padding-bottom: 100px;
+}
+.mt-50 {
+    margin-top: 50px;
 }
 button {
     &:focus{
@@ -1294,6 +1297,8 @@ button {
             }
         }
         .bottom {
+            display: inline-flex;
+            align-items: center;
             ul {
                 padding: 0;
                 margin: 0;
@@ -1989,7 +1994,7 @@ button {
             max-width: 575px;
 
             span {
-                color: $white-color;
+                color: $green-color;
                 font-weight: 700;
             }
         }
@@ -2374,6 +2379,11 @@ button {
 
 /*-- Contact --*/
 .contact-area.four {
+    .section-title {
+        span {
+            color: $green-color;
+        }
+    }
     .contact-content {
         .top {
             ul {
@@ -2671,40 +2681,6 @@ button {
     }
 }
 
-/*-- About --*/
-.about-area.five {
-    .about-img-three {
-        margin-bottom: 30px;
-    }
-    .section-title.five {
-        text-align: left;
-
-        p {
-            color: #B7B7B7;
-        }
-    }
-    .about-content {
-        margin-bottom: 30px;
-
-        ul {
-            li {
-                color: #B7B7B7;
-
-                span {
-                    color: $white-color;
-                }
-                a {
-                    color: #B7B7B7;
-
-                    &:hover {
-                        color: $pink-color;
-                    }
-                }
-            }
-        }
-    }
-}
-
 /*-- Counter --*/
 .counter-item {
     text-align: center;
@@ -2792,188 +2768,6 @@ button {
     }
 }
 
-/*-- Blog --*/
-.blog-area.five {
-    .blog-item {
-        .top {
-            h4 {
-                background-color: $pink-color;
-            }
-        }
-        .bottom {
-            h3 {
-                a {
-                    color: $white-color;
-
-                    &:hover {
-                        color: $paragraph-color;
-                    }
-                }
-            }
-            p {
-                color: #B7B7B7;
-            }
-            .blog-btn {
-                color: $pink-color;
-
-                &:hover {
-                    color: $white-color;
-                }
-            }
-        }
-    }
-    .blog-thumb-item {
-        margin-bottom: 30px;
-
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0;
-            margin: 0;
-
-            li {
-                list-style-type: none;
-                display: block;
-                position: relative;
-
-                &:nth-child(1) {
-                    flex: 0 0 20%;
-                    max-width: 20%;
-                    text-align: center;
-                }
-                &:nth-child(2) {
-                    flex: 0 0 70%;
-                    max-width: 70%;
-                    margin-left: 20px;
-                }
-                span {
-                    display: inline-block;
-                    color: #fff;
-                    background-color: #ED2C66;
-                    position: absolute;
-                    top: 5px;
-                    left: 5px;
-                    max-width: 40px;
-                    font-size: 14px;
-                    font-weight: 600;
-                    padding: 3px 0 5px;
-                }
-                h3 {
-                    margin-bottom: 5px;
-                    font-size: 18px;
-
-                    a {
-                        color: $white-color;
-                        line-height: 1.5;
-
-                        &:hover {
-                            color: $pink-color;
-                        }
-                    }
-                }
-                .blog-btn {
-                    display: inline-block;
-                    color: $pink-color;
-                    font-weight: 600;
-                    font-size: 14px;
-
-                    i {
-                        display: inline-block;
-                        font-size: 12px;
-                        margin-left: 3px;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*-- Review --*/
-.review-area.five {
-    .review-item {
-        background-color: #050608;
-        border: 0;
-        background-image: url('../images/review/review-bg2.png');
-        box-shadow: none;
-        margin-bottom: 0;
-
-        i {
-            color: $white-color;
-        }
-        p {
-            color: $pink-color;
-        }
-        h3 {
-            color: $white-color;
-        }
-        span {
-            color: #B7B7B7;
-        }
-    }
-    .owl-theme {
-        .owl-nav {
-            .owl-prev, .owl-next {
-                border: 1px solid $pink-color !important;
-                color: $pink-color !important;
-
-                &:hover {
-                    color: $white-color !important;
-                    background-color: $pink-color !important;
-                }
-            }
-        }
-    }
-}
-
-/*-- Contact --*/
-.contact-area.five {
-    .contact-content {
-        .top {
-            ul {
-                li {
-                    span {
-                        color: $white-color;
-                    }
-                    a {
-                        color: #B7B7B7;
-
-                        &:hover {
-                            color: $pink-color;
-                        }
-                    }
-                }
-            }
-        }
-        .bottom {
-            ul {
-                li {
-                    a {
-                        color: $white-color;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*-- Copyright --*/
-.copyright-area.five {
-    border-top: 1px solid #f1f1f11a;
-
-    .copyright-item {
-        p {
-            color: #B7B7B7;
-
-            a {
-                color: $pink-color;
-
-                &:hover {
-                    color: $white-color;
-                }
-            }
-        }
-    }
-}
 /*----- End Home Demo Five CSS -----*/
 
 /*----- Home Demo Six CSS -----*/
@@ -3972,7 +3766,7 @@ button {
     bottom: 0;
     right: 15px;
     color: #ffffff;
-    background-color: $orange-color;
+    background-color: $green-color;
     z-index: 4;
     width: 45px;
     text-align: center;
@@ -3981,7 +3775,7 @@ button {
     visibility: hidden;
     transition: .9s;
     border-radius: 50%;
-    border: 1px solid $orange-color;
+    border: 1px solid $green-color;
 
     i {
         position: absolute;

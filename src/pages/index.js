@@ -8,7 +8,7 @@ import CaseStudy from "../components/DemoFour/CaseStudy"
 import AboutMe from "../components/DemoFour/AboutMe"
 import Testimonials from "../components/DemoFour/Testimonials"
 import BlogPost from "../components/DemoFour/BlogPost"
-import ContactForm from "../components/DemoFour/ContactForm"
+import ContactForm from "../components/DemoFour/ContactForm";
 import Footer from "../components/DemoFour/Footer";
 
 const IndexPage = () => (
@@ -21,7 +21,7 @@ const IndexPage = () => (
         {/*<CaseStudy />*/}
         {/*<Testimonials />*/}
         {/*<BlogPost />*/}
-        {/*<ContactForm />*/}
+        <ContactForm />
         <Footer />
     </Layout>
 )
