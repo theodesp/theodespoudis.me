@@ -9,7 +9,7 @@ import AboutMe from "../components/DemoFour/AboutMe"
 import Testimonials from "../components/DemoFour/Testimonials"
 import BlogPost from "../components/DemoFour/BlogPost"
 import ContactForm from "../components/DemoFour/ContactForm"
-import Footer from "../components/DemoFour/Footer"
+import Footer from "../components/DemoFour/Footer";
 
 const IndexPage = () => (
     <Layout>
@@ -22,7 +22,7 @@ const IndexPage = () => (
         {/*<Testimonials />*/}
         {/*<BlogPost />*/}
         {/*<ContactForm />*/}
-        {/*<Footer />*/}
+        <Footer />
     </Layout>
 )
 

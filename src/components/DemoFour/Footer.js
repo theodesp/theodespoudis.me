@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="copyright-area four">
                 <div className="container">
                     <div className="copyright-item">
-                        <p>&copy;{currentYear} Design & Developed by <a href="https://hibootstrap.com/" target="_blank" rel="noreferrer">HiBootstrap</a></p>
+                        <p>{currentYear} Powered by <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a></p>
                     </div>
                 </div>
             </div>
