@@ -1,5 +1,6 @@
 import React from 'react';
 import {graphql, Link, useStaticQuery} from 'gatsby';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const MainBanner = () => {
     const { site } = useStaticQuery(
@@ -30,9 +31,13 @@ const MainBanner = () => {
                             <p>Hello I am a <span>Software Engineer</span> from Ireland. I have rich experience in React.js, Typescript and Go</p>
                             
                             <div className="banner-btn-area">
-                                <Link to="#contact" className="common-btn">
+                                <AnchorLink
+                                    offset={() => -1}
+                                    className="common-btn"
+                                    href="#contact"
+                                >
                                     Contact Me
-                                </Link>
+                                </AnchorLink>
                                 {/*<Link href="#" className="common-btn banner-btn">*/}
                                 {/*    Hire Me*/}
                                 {/*</Link>*/}
