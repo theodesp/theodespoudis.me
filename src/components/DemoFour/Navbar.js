@@ -72,9 +72,9 @@ const Navbar = () => {
                                 <AnchorLink
                                     offset={() => -1} 
                                     className="nav-link" 
-                                    href="#portfolio"
+                                    href="#services"
                                 >
-                                    Portfolio
+                                    Services
                                 </AnchorLink>
                             </li>
                             <li className="nav-item">

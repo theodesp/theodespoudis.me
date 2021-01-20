@@ -247,7 +247,7 @@ button {
 
     .sub-title {
         display: block;
-        color: $orange-color;
+        color: $green-color;
         margin-bottom: 10px;
         font-weight: 700;
         font-size: 15px;
@@ -261,7 +261,7 @@ button {
             height: 2px;
             top: 11px;
             left: 0;
-            background-color: $orange-color;
+            background-color: $green-color;
         }
     }
     h2 {
@@ -720,7 +720,7 @@ button {
     text-align: center;
 
     .icon {
-        color: $orange-color;
+        color: $green-color;
         display: inline-block;
         margin-bottom: 18px;
         font-size: 40px;
@@ -734,7 +734,7 @@ button {
             color: $main-color;
 
             &:hover {
-                color: $orange-color;
+                color: $green-color;
             }
         }
     }
@@ -743,7 +743,7 @@ button {
     }
     .what-btn {
         display: inline-block;
-        color: $orange-color;
+        color: $green-color;
         font-weight: 600;
         font-size: 15px;
 
