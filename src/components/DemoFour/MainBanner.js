@@ -1,6 +1,6 @@
 import React from 'react';
-import {graphql, Link, useStaticQuery} from 'gatsby';
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { graphql, useStaticQuery } from 'gatsby';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const MainBanner = () => {
     const { site } = useStaticQuery(
@@ -38,9 +38,6 @@ const MainBanner = () => {
                                 >
                                     Contact Me
                                 </AnchorLink>
-                                {/*<Link href="#" className="common-btn banner-btn">*/}
-                                {/*    Hire Me*/}
-                                {/*</Link>*/}
                             </div>
 
                             <ul>
