@@ -96,12 +96,6 @@ const Navbar = () => {
                                 </AnchorLink>
                             </li>
                         </ul>
-
-                        <div className="side-nav">
-                            <Link to="#" className="common-btn four">
-                                Download CV <i className='bx bxs-download' />
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </nav>
