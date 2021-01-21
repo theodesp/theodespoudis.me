@@ -279,14 +279,6 @@ button {
     }
 }
 .section-title.two {
-    .sub-title {
-        color: $green-color;
-        padding-left: 0;
-
-        &:before {
-            display: none;
-        }
-    }
     h2 {
         span {
             color: $green-color;
@@ -2270,7 +2262,7 @@ button {
 
 /*-- About --*/
 .about-area.four {
-    .section-title.four {
+    .section-title.two {
         text-align: left;
 
         h2 {
