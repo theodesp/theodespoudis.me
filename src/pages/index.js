@@ -17,8 +17,8 @@ const IndexPage = () => (
         <Navbar />
         <SEO title="Home page" />
         <MainBanner />
+        <AboutMe />
         <Services />
-        {/*<AboutMe />*/}
         {/*<Works />*/}
         {/*<CaseStudy />*/}
         {/*<Testimonials />*/}

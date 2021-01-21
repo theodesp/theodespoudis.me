@@ -280,7 +280,7 @@ button {
 }
 .section-title.two {
     .sub-title {
-        color: $yellow-color;
+        color: $green-color;
         padding-left: 0;
 
         &:before {
@@ -289,7 +289,7 @@ button {
     }
     h2 {
         span {
-            color: $yellow-color;
+            color: $green-color;
         }
     }
 }
@@ -697,7 +697,7 @@ button {
                     color: $paragraph-color;
 
                     &:hover {
-                        color: $orange-color;
+                        color: $green-color;
                     }
                 }
             }
@@ -2279,6 +2279,17 @@ button {
 
         h2 {
             font-size: 38px;
+        }
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 15px;
         }
     }
     .about-img-two {
