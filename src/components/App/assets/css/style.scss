@@ -704,7 +704,7 @@ button {
 
     .common-right-text {
         top: 340px;
-        right: -175px;
+        right: -210px;
     }
 }
 .what-item {
@@ -812,6 +812,16 @@ button {
 }
 
 /*-- Portfolio --*/
+.portfolio-area {
+    position: relative;
+    overflow: hidden;
+
+    .common-right-text {
+        top: 340px;
+        right: -290px;
+    }
+}
+
 .portfolio-item {
     margin-bottom: 30px;
     position: relative;
@@ -825,7 +835,7 @@ button {
         height: 0%;
         left: 0;
         bottom: 0;
-        background-color: $orange-color;
+        background-color: $blue-color;
         transition: $transition;
     }
     &:hover {
@@ -867,7 +877,7 @@ button {
                     color: $white-color;
 
                     &:hover {
-                        color: $main-color;
+                        color: $green-color;
                     }
                 }
             }
@@ -894,7 +904,7 @@ button {
                     left: 5px;
                 }
                 &:hover {
-                    color: $main-color;
+                    color: $green-color;
                 }
             }
         }
@@ -1195,6 +1205,8 @@ button {
         }
     }
 }
+
+
 
 /*-- Contact --*/
 .contact-area {
